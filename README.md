@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot-social-links-profile.png)
+![](./screenshot-social-link-profile.png)
 
 
 ### Links
