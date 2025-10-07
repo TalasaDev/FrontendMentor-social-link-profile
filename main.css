@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    
+}
+
+/* COLORS */
+:root {
+    --green: hsl(75, 94%, 57%);
+    --darkgreen: hsl(75, 60%, 40%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+
+    --orange: hsl(23.1, 93.83%, 55.49%);
+    --yellow: hsl(44.21, 100%, 55.29%);
+    --softgrey: hsl(38, 38.46%, 84.71%);
+    --blue: hsl(180.77, 72.9%, 41.96%);
+    --greyblue: hsl(176.7, 71.65%, 24.9%);
+    --burgundy: hsl(343.29, 100%, 27.45%);
+    --metallicgold: hsl(45.86, 64.61%, 52.35%);
+    --silver: hsl(0, 0%, 45.88%);
+    --dimgrey: hsl(0, 0%, 41.18%);
+    --oldgold: hsl(49.46, 60.66%, 52.16%);
+    --fontgrey: hsl(0, 0%, 46.67%);
+    --black: hsl(0, 0%, 3.14%);
+    --greygold: hsl(60, 20%, 50%);
+    --goldengreyfgold: h
+}
+
+/* MOBILE DESIGN FIRST */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--softgrey) /*var(--grey-900)*/;
+    max-width: 375px;
+    overflow: hidden;
+    margin: auto;
+    height: 100vh;
+    
+}
+
+.card {
+    /*background-color: var(--burgundy);var(--grey-800);*/
+    background-image: linear-gradient(to bottom right, #141414,#E0AA);
+    padding: 20px;
+    margin: 50px auto 0 auto;
+    border-radius: 10px;    
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.profile img {
+    border-radius: 100px;
+    scale: 0.6;    
+}
+
+.profile h1 {
+    font-size: 1.9rem;
+    color: hsl(60, 60%, 50%) /*var(--metallicgold)*/ /*var(--orange);*/
+    
+}
+
+.profile p {
+    color: var(--softgrey) /*var(--green)*/;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 10px auto 30px auto;
+}
+
+.summary {
+    color: var(--white);
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--fontgrey);
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: var(--black)/*var(--grey-700)*/;
+    margin-bottom: 10px;
+    padding: 15px; 
+    border-radius: 8px;
+}
+
+.link:hover {
+    color: var(--black);
+    background-color: var(--greygold)
+}
+
+.attribution {
+    margin: 10px 0;
+    color: var(--black);
+}
+
+.attribution a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
