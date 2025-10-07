@@ -52,6 +52,7 @@ body {
 .card {
     /*background-color: var(--burgundy);var(--grey-800);*/
     background-image: linear-gradient(to bottom right, #141414,#E0AA);
+    width: 375px;
     padding: 20px;
     margin: 50px auto 0 auto;
     border-radius: 10px;    
@@ -60,33 +61,37 @@ body {
 .profile {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     padding: 0;
+    border: 5px solid yellowgreen;
 }
 
 .profile img {
     border-radius: 100px;
-    scale: 0.6;    
+    scale: 0.5;
+    border: 5px solid yellow;
 }
 
 .profile h1 {
-    font-size: 1.9rem;
-    color: hsl(60, 60%, 50%) /*var(--metallicgold)*/ /*var(--orange);*/
-    
+    font-size: 1.6rem;
+    color: hsl(60, 60%, 50%) /*var(--metallicgold)*/ /*var(--orange);*/;
+    border: 5px solid orange;
 }
 
 .profile p {
     color: var(--softgrey) /*var(--green)*/;
     font-weight: bold;
-    font-size: 1.1rem;
-    margin: 10px auto 30px auto;
+    font-size: 0.9rem;
+    margin: auto;
+    border: 5px solid lightpink;
 }
 
 .summary {
-    color: var(--white);
-    font-size: 1.1rem;
+    color: var(--black);
+    font-size: 1rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .link {
