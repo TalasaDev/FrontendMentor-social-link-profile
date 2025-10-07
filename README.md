@@ -27,6 +27,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot-social-link-profile.png)
+![](./screenshot-social-links-profile-BORDERS.png)
 
 
 ### Links
@@ -46,6 +47,8 @@ Users should be able to:
 ### What I learned
 
 This challenge allow me to focus in buttons states and palette colors. It's was fun.
+
+In a more retrospective overview of the challenge, I learned again about patience and the learning curve paradigme. The flexbox layout is the first one I started learning and practising, so, consequently, the one I understand better. Despite that fact, there is still hesitation about the styling used, as the items do not position the way I would want. (Again. Super mean). 
 
 
 ### Continued development
