@@ -27,6 +27,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot-social-links-profile-BORDERS.png)
+![](./screenshot-social-links-profile.png)
 
 
 ### Links
