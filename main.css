@@ -61,22 +61,22 @@ body {
 .profile {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding: 0;
-    border: 5px solid yellowgreen;
+    /*border: 5px solid yellowgreen;*/
 }
 
 .profile img {
     border-radius: 100px;
     scale: 0.5;
-    border: 5px solid yellow;
+    /*border: 5px solid yellow;*/
 }
 
 .profile h1 {
     font-size: 1.6rem;
     color: hsl(60, 60%, 50%) /*var(--metallicgold)*/ /*var(--orange);*/;
-    border: 5px solid orange;
+    /*border: 5px solid orange;*/
 }
 
 .profile p {
@@ -84,13 +84,13 @@ body {
     font-weight: bold;
     font-size: 0.9rem;
     margin: auto;
-    border: 5px solid lightpink;
+    /*border: 5px solid lightpink;*/
 }
 
 .summary {
     color: var(--black);
     font-size: 1rem;
-    margin-bottom: 20px;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -105,11 +105,23 @@ body {
     margin-bottom: 10px;
     padding: 15px; 
     border-radius: 8px;
+    
+}
+
+.social-links a {
+    color: var(--fontgrey);
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .link:hover {
     color: var(--black);
     background-color: var(--greygold)
+}
+
+.link a:hover {
+    color: var(--black);
 }
 
 .attribution {
